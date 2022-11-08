@@ -8,6 +8,17 @@
 
     <!-- css -->
     <link rel="stylesheet" href="styles/main.css">
+    
   </head>
-  <body></body>
+  <body>
+    <script type="module" defer>
+      // building script to hydrate the body
+      import main from './components/main.js';
+      import footer from './components/footer.js';
+
+      // build all components
+      document.body.appendChild(main());
+      document.body.appendChild(footer());
+    </script>
+  </body>
 </html>
