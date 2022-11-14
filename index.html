@@ -10,12 +10,31 @@
     <link href="/dist/output.css" rel="stylesheet">
 
     <!-- scripts -->
-    <!-- include scripts here -->
+    <script src="/scripts/menu.js" defer></script>
     
   </head>
   <body class="bg-white">
 
-    <nav class="fixed top-0 left-0 w-screen h-32 bg-sunset"></nav>
+    <nav class="fixed top-0 left-0 w-screen h-32 px-8 flex flex-row justify-between items-end transition-colors duration-700" id="navBar">
+      <button class="h-16 w-auto">
+        <img src="/assets/logo/logo_icon.svg" alt="" class="h-full w-auto">
+      </button>
+
+      <section class="sm:flex hidden sm:relative fixed top-0 left-0 sm:w-auto w-screen sm:h-auto h-screen sm:bg-transparent bg-sunset sm:flex-row flex-col justify-center gap-8 sm:px-0 px-4" id="menu">
+        <ul class="flex sm:flex-row flex-col gap-12 sm:h-16 h-auto sm:items-center items-start">
+          <a href="">Produkter</a>
+          <a href="">Om oss</a>
+          <a href="">Kontakt</a>
+        </ul>
+        <input type="search" name="search" id="search" placeholder="Sök" class="w-32 h-16 px-4 bg-spaceGey">
+      </section>
+
+      <button class="relative w-16 h-16 sm:hidden grid place-items-center gap-1" id="toggleMenuBtn">
+        <div class="w-full h-1 bg-black duration-300"></div>
+        <div class="w-full h-1 bg-black duration-100"></div>
+        <div class="w-full h-1 bg-black duration-300"></div>
+      </button>
+    </nav>
 
     <section class="w-screen h-screen flex flex-col items-center place-content-center gap-24">
       <img src="/assets/logo/logo_big.svg" alt="" class="self-start">
