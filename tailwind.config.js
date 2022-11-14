@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // insert colors here
+        spaceGey: '#343434',
+        sunset: '#FF4E00',
+        tropical: '#00FFDD'
       }
     },
   },
