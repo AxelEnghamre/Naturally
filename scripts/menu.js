@@ -21,8 +21,10 @@ const bars = document.querySelectorAll('#toggleMenuBtn *');
 const menu = document.querySelector('#menu');
 
 toggleMenuBtn.addEventListener('click', () => {
-    menu.classList.toggle('hidden');
-    menu.classList.toggle('flex');
+    menu.classList.toggle('w-0');
+    menu.classList.toggle('w-screen');
+    menu.classList.toggle('px-0');
+    menu.classList.toggle('px-4');
 
     bars[0].classList.toggle('absolute');
     bars[0].classList.toggle('rotate-45');
