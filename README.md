@@ -3,6 +3,13 @@
 ## installation
 This project uses [tailwind](https://tailwindcss.com). Therefore [node](https://nodejs.dev/en/) is needed with a package manager like [npm](https://www.npmjs.com)
 
+### setup
+To install all dependencies, run this command in an integrated termianl
+```
+npm install
+```
+This will make sure that all packages is installed and up to date
+
 ### output.css
 to build and update output.css file in dist, run this command in an integrated termianl
 ```
