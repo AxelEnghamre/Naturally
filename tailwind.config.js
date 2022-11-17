@@ -9,7 +9,10 @@ module.exports = {
       colors: {
         spaceGey: '#343434',
         sunset: '#FF4E00',
-        tropical: '#00FFDD'
+        tropical: '#00FFDD',
+        glass: '#F5F5F5',
+        rat: '#DBDADA',
+        gravel: '#989898'
       }
     },
   },
