@@ -3,12 +3,14 @@ const navBar = document.querySelector('#navBar');
 
 document.addEventListener('scroll', () => {
     if(window.scrollY > 0) {
-        if(!navBar.classList.contains('bg-sunset')) {
-            navBar.classList.add('bg-sunset');
+        if(!navBar.classList.contains('bg-white')) {
+            navBar.classList.add('bg-white');
+            navBar.classList.add('pb-2');
         }
     } else {
-        if(navBar.classList.contains('bg-sunset')) {
-            navBar.classList.remove('bg-sunset');
+        if(navBar.classList.contains('bg-white')) {
+            navBar.classList.remove('bg-white');
+            navBar.classList.remove('pb-2');
         }
     }
 });
