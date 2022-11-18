@@ -13,6 +13,10 @@ This will make sure that all packages is installed and up to date
 ### output.css
 to build and update output.css file in dist, run this command in an integrated termianl
 ```
+npm run start
+```
+or run
+```
 npx tailwindcss -i ./styles/input.css -o ./dist/output.css --watch
 ```
 
