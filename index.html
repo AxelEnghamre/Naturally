@@ -11,6 +11,7 @@
 
     <!-- scripts -->
     <script src="/scripts/menu.js" defer></script>
+    <script src="/scripts/footer.js" defer></script>
   </head>
   <body class="bg-white">
     <!-- navigation -->
@@ -22,6 +23,7 @@
         <img src="/assets/logo/logo_icon.svg" alt="" class="h-full w-auto" />
       </button>
 
+
       <section
         class="flex sm:relative fixed top-0 left-0 sm:w-auto w-0 sm:h-auto h-screen sm:bg-transparent bg-glass sm:flex-row flex-col justify-center sm:items-center gap-8 sm:px-4 px-0 sm:duration-0 duration-500 sm:overflow-x-auto overflow-x-scroll"
         id="menu"
@@ -29,6 +31,9 @@
         <ul
           class="flex sm:flex-row flex-col gap-12 sm:h-16 min-h-fit sm:items-center items-start"
         >
+      <section class="flex sm:relative fixed top-0 right-0 sm:w-auto w-0 sm:h-auto h-screen sm:bg-transparent bg-glass sm:flex-row flex-col justify-center sm:items-center gap-8 sm:px-4 px-0 sm:duration-0 duration-500 sm:overflow-x-auto overflow-x-scroll" id="menu">
+        <ul class="flex sm:flex-row flex-col gap-12 sm:h-16 min-h-fit sm:items-center items-start">
+
           <a href="" class="whitespace-nowrap">Produkter</a>
           <a href="" class="whitespace-nowrap">Om oss</a>
           <a href="" class="whitespace-nowrap">Kontakt</a>
@@ -65,7 +70,7 @@
     </section>
 
     <!-- main section -->
-    <main class="min-h-screen">
+    <main class="min-h-screen max-w-7xl mx-auto">
       <!-- newsletter -->
       <section class="flex justify-center">
         <div class="relative w-10/12 h-80 sm:h-80 bg-glass">
@@ -91,8 +96,60 @@
           <div class="absolute inset-x-0 bottom-0 h-10 bg-spaceGey"></div>
         </div>
       </section>
+
     </main>
 
-    <footer class="w-full min-h-fit h-60 bg-spaceGey"></footer>
+    <!-- footer -->
+    <footer class="w-full min-h-fit h-96 p-6 bg-spaceGey text-gravel flex flex-col">
+      <section class="flex sm:flex-row flex-col justify-start max-w-7xl w-full gap-6 mx-auto">
+        <article class="sm:w-60 w-full min-w-fit">
+          <div class="w-full flex flex-row justify-between place-items-center sm:cursor-default cursor-pointer">
+            <h3 class="text-white text-2xl">Naturally</h3>
+            <img src="/assets/icons/arrow.svg" alt="arrow icon" class="h-5 w-auto sm:hidden">
+          </div>
+          <ul class="flex flex-col gap-4 mt-4 sm:h-auto h-0 overflow-hidden">
+            <a href="" class="w-fit">Kläder</a>
+            <a href="" class="w-fit">Matial</a>
+            <a href="" class="w-fit">Vision</a>
+            <a href="" class="w-fit">Hållbarhet</a>
+          </ul>
+        </article>
+        
+        <article class="sm:w-60 w-full min-w-fit">
+          <div class="w-full flex flex-row justify-between place-items-center sm:cursor-default cursor-pointer">
+            <h3 class="text-white text-2xl">Hjälp</h3>
+            <img src="/assets/icons/arrow.svg" alt="arrow icon" class="h-5 w-auto sm:hidden">
+          </div>
+          <ul class="flex flex-col gap-4 mt-4 sm:h-auto h-0 overflow-hidden">
+            <a href="" class="w-fit">Användarvillkor</a>
+            <a href="" class="w-fit">Regler & Villkor</a>
+            <a href="" class="w-fit">Leverans</a>
+            <a href="" class="w-fit">Cookies</a>
+          </ul>
+        </article>
+  
+        <article class="sm:w-60 w-full min-w-fit">
+          <div class="w-full flex flex-row justify-between place-items-center sm:cursor-default cursor-pointer">
+            <h3 class="text-white text-2xl">Naturally</h3>
+            <img src="/assets/icons/arrow.svg" alt="arrow icon" class="h-5 w-auto sm:hidden">
+          </div>
+          <ul class="flex flex-col gap-4 mt-4 sm:h-auto h-0 overflow-hidden">
+            <a href="" class="w-fit">naturally@naturally.com</a>
+            <p class="w-fit">Framtidsgatan 1</p>
+            <p class="w-fit">417 56 Göteborg</p>
+          </ul>
+        </article>
+      </section>
+      
+      <section class="flex flex-row">
+        <a href="">göteborg</a>
+        <p>© 2022 Naturally, All Rights Reserved</p>
+        <div>
+
+        </div>
+      </section>
+      
+      
+    </footer>
   </body>
 </html>
