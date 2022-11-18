@@ -7,30 +7,50 @@
     <title>Naturally</title>
 
     <!-- tailwind -->
-    <link href="/dist/output.css" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet" />
 
     <!-- scripts -->
     <script src="/scripts/menu.js" defer></script>
     <script src="/scripts/footer.js" defer></script>
-    
   </head>
   <body class="bg-white">
     <!-- navigation -->
-    <nav class="fixed top-0 left-0 w-screen h-24 px-8 flex flex-row justify-between items-end transition-colors duration-500" id="navBar">
+    <nav
+      class="fixed top-0 left-0 w-screen h-24 px-8 flex flex-row justify-between items-end transition-colors duration-500"
+      id="navBar"
+    >
       <button class="h-16 w-auto">
-        <img src="/assets/logo/logo_icon.svg" alt="" class="h-full w-auto">
+        <img src="/assets/logo/logo_icon.svg" alt="" class="h-full w-auto" />
       </button>
 
+
+      <section
+        class="flex sm:relative fixed top-0 left-0 sm:w-auto w-0 sm:h-auto h-screen sm:bg-transparent bg-glass sm:flex-row flex-col justify-center sm:items-center gap-8 sm:px-4 px-0 sm:duration-0 duration-500 sm:overflow-x-auto overflow-x-scroll"
+        id="menu"
+      >
+        <ul
+          class="flex sm:flex-row flex-col gap-12 sm:h-16 min-h-fit sm:items-center items-start"
+        >
       <section class="flex sm:relative fixed top-0 right-0 sm:w-auto w-0 sm:h-auto h-screen sm:bg-transparent bg-glass sm:flex-row flex-col justify-center sm:items-center gap-8 sm:px-4 px-0 sm:duration-0 duration-500 sm:overflow-x-auto overflow-x-scroll" id="menu">
         <ul class="flex sm:flex-row flex-col gap-12 sm:h-16 min-h-fit sm:items-center items-start">
+
           <a href="" class="whitespace-nowrap">Produkter</a>
           <a href="" class="whitespace-nowrap">Om oss</a>
           <a href="" class="whitespace-nowrap">Kontakt</a>
         </ul>
-        <input type="search" name="search" id="search" placeholder="Sök" class="w-32 h-10 px-4 bg-glass">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Sök"
+          class="w-32 h-10 px-4 bg-glass"
+        />
       </section>
 
-      <button class="relative w-16 h-16 sm:hidden grid place-items-center gap-1" id="toggleMenuBtn">
+      <button
+        class="relative w-16 h-16 sm:hidden grid place-items-center gap-1"
+        id="toggleMenuBtn"
+      >
         <div class="w-full h-1 bg-black duration-300"></div>
         <div class="w-full h-1 bg-black duration-100"></div>
         <div class="w-full h-1 bg-black duration-300"></div>
@@ -38,13 +58,44 @@
     </nav>
 
     <!-- hero section -->
-    <section class="w-screen min-h-screen flex flex-col items-center place-content-center gap-24 py-40">
-      <img src="/assets/logo/logo_big.svg" alt="" class="self-start">
-      <button class="bg-sunset w-44 h-11 text-lg sm:w-64 sm:h-16 sm:text-4xl grid place-items-center text-white">SHOPPA</button>
+    <section
+      class="w-screen min-h-screen flex flex-col items-center place-content-center gap-24 py-40"
+    >
+      <img src="/assets/logo/logo_big.svg" alt="" class="self-start" />
+      <button
+        class="bg-sunset w-44 h-11 text-lg sm:w-64 sm:h-16 sm:text-4xl grid place-items-center text-white"
+      >
+        SHOPPA
+      </button>
     </section>
-    
+
     <!-- main section -->
     <main class="min-h-screen max-w-7xl mx-auto">
+      <!-- newsletter -->
+      <section class="flex justify-center">
+        <div class="relative w-10/12 h-80 sm:h-80 bg-glass">
+          <h2>Ifall du glömde</h2>
+          <p>
+            Gå med i vårt nyhetsbrev för att få exklusiv informatiom om våra nya
+            produkter och framtidsplaner.
+          </p>
+          <div class="absolute bottom-20 w-full flex justify-center">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="dinmail@mail.com"
+              class="w-6/12 h-10 px-4 bg-white border-2 border-sunset"
+            />
+            <button
+              class="bg-spaceGey w-3/12 h-10 place-items-center text-white"
+            >
+              Gå med
+            </button>
+          </div>
+          <div class="absolute inset-x-0 bottom-0 h-10 bg-spaceGey"></div>
+        </div>
+      </section>
 
     </main>
 
