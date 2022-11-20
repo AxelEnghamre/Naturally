@@ -117,27 +117,30 @@
     <main class="min-h-screen max-w-7xl mx-auto">
       <!-- newsletter -->
       <section class="flex justify-center">
-        <div class="relative w-10/12 h-80 sm:h-80 bg-glass">
-          <h2>Ifall du glömde</h2>
-          <p>
-            Gå med i vårt nyhetsbrev för att få exklusiv informatiom om våra nya
-            produkter och framtidsplaner.
-          </p>
-          <div class="absolute bottom-20 w-full flex justify-center">
-            <input
+        <div class="w-10/12 bg-glass">
+          <div class="p-12">
+
+            <h2 class="text-3xl sm:text-6xl font-bold mb-4">Ifall du glömde.</h2>
+            <p class="mb-12">
+              Gå med i vårt nyhetsbrev för att få exklusiv information om våra nya
+              produkter och framtidsplaner.
+            </p>
+            <div class="w-full flex flex-col sm:flex-row items-center sm:justify-center gap-3 sm:gap-0">
+              <input
               type="email"
               name="email"
               id="email"
               placeholder="dinmail@mail.com"
-              class="w-6/12 h-10 px-4 bg-white border-2 border-sunset"
-            />
-            <button
-              class="bg-spaceGey w-3/12 h-10 place-items-center text-white"
-            >
+              class="w-11/12 sm:w-6/12 h-10 px-4 bg-white border-2 border-sunset"
+              />
+              <button
+              class="bg-spaceGey w-2/6 h-10 place-items-center text-white"
+              >
               Gå med
             </button>
           </div>
-          <div class="absolute inset-x-0 bottom-0 h-10 bg-spaceGey"></div>
+        </div>
+          <div class="hidden sm:block w-full h-10 bg-spaceGey"></div>
         </div>
       </section>
 
