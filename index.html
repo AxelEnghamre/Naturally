@@ -201,9 +201,9 @@
     
     
     <!-- footer -->
-    <footer class="w-full min-h-fit h-96 p-6 bg-spaceGey text-gravel flex flex-col">
-      <section class="flex sm:flex-row flex-col justify-start max-w-7xl w-full gap-6 mx-auto">
-        <article class="sm:w-60 w-full min-w-fit">
+    <footer class="w-full min-h-fit p-6 pb-12 bg-spaceGey text-gravel flex flex-col">
+      <section class="grow flex sm:flex-row flex-col justify-start max-w-7xl w-full gap-6 mx-auto">
+        <article class="sm:w-60 w-full min-w-fit order-1">
           <div class="w-full flex flex-row justify-between place-items-center sm:cursor-default cursor-pointer">
             <h3 class="text-white text-2xl">Naturally</h3>
             <img src="/assets/icons/arrow.svg" alt="arrow icon" class="h-5 w-auto sm:hidden">
@@ -216,7 +216,7 @@
           </ul>
         </article>
         
-        <article class="sm:w-60 w-full min-w-fit">
+        <article class="sm:w-60 w-full min-w-fit sm:order-2 order-last">
           <div class="w-full flex flex-row justify-between place-items-center sm:cursor-default cursor-pointer">
             <h3 class="text-white text-2xl">Hjälp</h3>
             <img src="/assets/icons/arrow.svg" alt="arrow icon" class="h-5 w-auto sm:hidden">
@@ -229,24 +229,28 @@
           </ul>
         </article>
   
-        <article class="sm:w-60 w-full min-w-fit">
+        <article class="sm:w-60 w-full min-w-fit order-3">
           <div class="w-full flex flex-row justify-between place-items-center sm:cursor-default cursor-pointer">
-            <h3 class="text-white text-2xl">Naturally</h3>
+            <h3 class="text-white text-2xl">Kontakt</h3>
             <img src="/assets/icons/arrow.svg" alt="arrow icon" class="h-5 w-auto sm:hidden">
           </div>
           <ul class="flex flex-col gap-4 mt-4 sm:h-auto h-0 overflow-hidden">
-            <a href="" class="w-fit">naturally@naturally.com</a>
+            <a href="mailto:naturally@naturally.com" class="w-fit">naturally@naturally.com</a>
             <p class="w-fit">Framtidsgatan 1</p>
             <p class="w-fit">417 56 Göteborg</p>
           </ul>
         </article>
       </section>
       
-      <section class="flex flex-row">
-        <a href="">göteborg</a>
-        <p>© 2022 Naturally, All Rights Reserved</p>
-        <div>
+      <section class="w-full pt-16 flex sm:flex-row flex-col sm:items-start items-center gap-10 gap-y-4">
+        <a href="" class="sm:order-first order-last h-10 sm:mt-0 mt-12 flex flex-row items-center gap-2 text-glass"><img src="/assets/icons/mapsIcon.svg" alt="maps icon"> göteborg</a>
 
+        <p class="grow h-10 flex sm:flex-row flex-col sm:items-center">© 2022 Naturally, &nbsp;<span>All Rights Reserved</span></p>
+
+        <div class="sm:order-last order-first h-10 flex flex-row gap-6 items-center">
+          <a href=""><img src="/assets/icons/instagramIcon.svg" alt="instagram icon"></a>
+          <a href=""><img src="/assets/icons/linkedInIcon.svg" alt="linkedIn icon"></a>
+          <a href=""><img src="/assets/icons/facebookIcon.svg" alt="facebook icon"></a>
         </div>
       </section>
       
