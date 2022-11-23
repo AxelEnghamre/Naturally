@@ -23,10 +23,20 @@ const bars = document.querySelectorAll('#toggleMenuBtn *');
 const menu = document.querySelector('#menu');
 
 toggleMenuBtn.addEventListener('click', () => {
+    if(menu.classList.contains('w-screen')) {
+        menu.classList.toggle('right-0');
+        menu.classList.toggle('left-0');
+        setTimeout(()=>{
+            menu.classList.toggle('right-0');
+            menu.classList.toggle('left-0');
+        },1000);
+    }
+
     menu.classList.toggle('w-0');
     menu.classList.toggle('w-screen');
     menu.classList.toggle('px-0');
     menu.classList.toggle('px-4');
+
 
     bars[0].classList.toggle('absolute');
     bars[0].classList.toggle('rotate-45');
