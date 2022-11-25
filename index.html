@@ -26,33 +26,41 @@
 
 
       <section
-        class="flex sm:relative fixed top-0 right-0 sm:w-auto w-0 sm:h-auto h-screen sm:bg-transparent bg-glass sm:flex-row flex-col justify-center sm:items-center gap-8 sm:px-4 px-0 sm:duration-0 duration-500 sm:overflow-x-auto overflow-x-scroll"
-        id="menu"
+      class="flex sm:relative fixed top-0 right-0 sm:w-auto w-0 sm:h-auto h-screen sm:bg-transparent bg-glass sm:flex-row flex-col justify-center sm:items-center gap-8 sm:px-4 px-0 sm:duration-0 duration-500 sm:overflow-x-auto overflow-x-scroll"
+      id="menu"
       >
       <ul class="flex sm:flex-row flex-col gap-12 sm:h-16 min-h-fit sm:items-center items-start">
-
-          <a href="" class="whitespace-nowrap">Produkter</a>
-          <a href="" class="whitespace-nowrap">Om oss</a>
-          <a href="" class="whitespace-nowrap">Kontakt</a>
-        </ul>
-        <input
-          type="search"
-          name="search"
-          id="search"
-          placeholder="Sök"
-          class="w-32 h-10 px-4 bg-glass"
-        />
-      </section>
+        <a href="" class="whitespace-nowrap">Produkter</a>
+        <a href="" class="whitespace-nowrap">Om oss</a>
+        <a href="" class="whitespace-nowrap">Kontakt</a>
+      </ul>
+      <input
+      type="search"
+      name="search"
+      id="search"
+      placeholder="Sök"
+      class="w-32 h-10 px-4 bg-glass sm:block hidden"
+      />
+      <div class="sm:relative absolute left-0 bottom-0 sm:w-fit w-full sm:h-fit h-32 sm:bg-transparent bg-spaceGey sm:block flex justify-end items-center sm:p-0 px-4">
+        <button>SV|EN</button>
+      </div>
     </section>
+  </section>
+    <div class="sm:hidden flex flex-row gap-12">
 
+      <button class="">
+        <img src="/assets/icons/search.svg" alt="search icon">
+      </button>
+  
       <button
-        class="relative w-16 h-16 sm:hidden grid place-items-center gap-1 "
-        id="toggleMenuBtn"
-      >
+            class="relative w-16 h-16 sm:hidden grid place-items-center gap-1 "
+            id="toggleMenuBtn"
+          >
         <div class="w-full h-1 bg-black duration-300"></div>
         <div class="w-full h-1 bg-black duration-100"></div>
         <div class="w-full h-1 bg-black duration-300"></div>
       </button>
+    </div>    
     </nav>
 
     <!-- hero section -->
