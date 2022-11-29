@@ -17,7 +17,7 @@
   <body class="bg-white">
     <!-- navigation -->
     <nav
-      class="fixed z-50 top-0 left-0 w-screen h-24 px-8 flex flex-row justify-between items-end transition-colors duration-500"
+      class="fixed z-50 top-0 left-0 w-screen h-24 px-8 flex flex-row justify-between items-end transition-colors duration-500 overflow-y-visible"
       id="navBar"
     >
       <button class="h-16 w-auto">
@@ -26,22 +26,45 @@
 
 
       <section
-      class="flex sm:relative fixed top-0 right-0 sm:w-auto w-0 sm:h-auto h-screen sm:bg-transparent bg-glass sm:flex-row flex-col justify-start sm:items-center gap-8 sm:px-4 px-0 sm:pt-0 pt-28 sm:duration-0 duration-500 sm:overflow-x-auto overflow-x-scroll"
+      class="flex sm:relative fixed top-0 right-0 sm:w-auto w-0 sm:h-auto h-screen sm:bg-transparent bg-glass sm:flex-row flex-col justify-start sm:items-center gap-8 sm:px-4 px-0 sm:pt-0 pt-28 sm:duration-0 duration-500 sm:overflow-x-auto overflow-x-scroll overflow-y-visible"
       id="menu"
       >
-      <ul class="flex sm:flex-row flex-col gap-12 sm:h-16 min-h-fit sm:items-center items-start sm:mx-0 mx-4">
-        <a href="" class="whitespace-nowrap w-full flex flex-row justify-between place-items-center">
-          Produkter
+      <ul class="flex sm:flex-row flex-col gap-12 min-h-fit sm:items-center items-start sm:mx-0 mx-4">
+        <div class="group">
+          <a href="" class="group-hover:bg-glass hover:underline whitespace-nowrap w-full h-fit flex flex-row justify-between place-items-center p-2">
+            Produkter
+          </a>
+          <ul class="fixed group-hover:flex flex-col gap-2 hidden h-fit p-2 bg-glass">
+            <a href="" class="hover:underline w-fit">Kläder</a>
+            <a href="" class="hover:underline w-fit">Glasögon</a>
+            <a href="" class="hover:underline w-fit">Accessoarer</a>
+          </ul>
           <img src="/assets/icons/menuArrow.svg" alt="arrow icon" class="h-10 w-auto sm:hidden">
-        </a>
-        <a href="" class="whitespace-nowrap w-full flex flex-row justify-between place-items-center">
-          Om oss
+        </div>
+
+        <div class="group">
+          <a href="" class="group-hover:bg-glass hover:underline whitespace-nowrap w-full h-fit flex flex-row justify-between place-items-center p-2">
+            Om oss
+          </a>
+          <ul class="fixed group-hover:flex flex-col gap-2 hidden h-fit p-2 bg-glass">
+            <a href="" class="hover:underline w-fit">Material</a>
+            <a href="" class="hover:underline w-fit">Vision</a>
+            <a href="" class="hover:underline w-fit">Hållbarhet</a>
+          </ul>
           <img src="/assets/icons/menuArrow.svg" alt="arrow icon" class="h-10 w-auto sm:hidden">
-        </a>
-        <a href="" class="whitespace-nowrap w-full flex flex-row justify-between place-items-center">
-          Kontakt
+        </div>
+
+        <div class="group">
+          <a href="" class="group-hover:bg-glass hover:underline whitespace-nowrap w-full h-fit flex flex-row justify-between place-items-center p-2">
+            Kontakt
+          </a>
+          <ul class="fixed group-hover:flex flex-col gap-2 hidden h-fit p-2 bg-glass">
+            <a href="" class="hover:underline w-fit">Mail</a>
+            <a href="" class="hover:underline w-fit">Telefon</a>
+            <a href="" class="hover:underline w-fit">Jobba hos oss</a>
+          </ul>
           <img src="/assets/icons/menuArrow.svg" alt="arrow icon" class="h-10 w-auto sm:hidden">
-        </a>
+        </div>
       </ul>
         <button class="w-32 h-10 px-4 bg-glass sm:flex hidden flex-row items-center gap-2"
         id="serachBtn"
