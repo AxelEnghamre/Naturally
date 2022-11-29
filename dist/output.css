@@ -706,6 +706,10 @@ video {
   height: 5rem;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1032,6 +1036,11 @@ video {
 .object-center {
   -o-object-position: center;
      object-position: center;
+}
+
+.object-top {
+  -o-object-position: top;
+     object-position: top;
 }
 
 .p-12 {
