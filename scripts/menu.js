@@ -49,3 +49,26 @@ toggleMenuBtn.addEventListener('click', () => {
     document.body.classList.toggle('overflow-hidden');
 
 });
+
+
+const searchOverlay = document.querySelector('#searchOverlay');
+const searchOverlayCancel = searchOverlay.querySelector('button');
+
+searchOverlayCancel.addEventListener('click', () => {
+    searchOverlay.classList.toggle('flex');
+    searchOverlay.classList.toggle('hidden');
+});
+
+
+
+const serachBtn = document.querySelector('#serachBtn');
+const serachBtnMobile = document.querySelector('#serachBtnMobile');
+
+serachBtn.addEventListener('click', () => {
+    searchOverlay.classList.toggle('flex');
+    searchOverlay.classList.toggle('hidden');
+});
+serachBtnMobile.addEventListener('click', () => {
+    searchOverlay.classList.toggle('flex');
+    searchOverlay.classList.toggle('hidden');
+});

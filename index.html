@@ -43,33 +43,42 @@
           <img src="/assets/icons/menuArrow.svg" alt="arrow icon" class="h-10 w-auto sm:hidden">
         </a>
       </ul>
-      <input
-      type="search"
-      name="search"
-      id="search"
-      placeholder="Sök"
-      class="w-32 h-10 px-4 bg-glass sm:block hidden"
-      />
-      <div class="sm:relative absolute left-0 bottom-0 sm:w-fit w-full sm:h-fit h-32 sm:bg-transparent bg-spaceGey sm:block flex justify-end items-center sm:p-0 px-4">
-        <button>SV|EN</button>
-      </div>
-    </section>
-  </section>
-    <div class="sm:hidden flex flex-row gap-12">
+        <button class="w-32 h-10 px-4 bg-glass sm:flex hidden flex-row items-center gap-2"
+        id="serachBtn"
+        >
+          <img src="/assets/icons/search.svg" alt="search icon">
+          Sök
+        </button>
+        <div class="sm:relative absolute left-0 bottom-0 sm:w-fit w-full sm:h-fit h-32 sm:bg-transparent bg-spaceGey sm:block flex justify-end items-center sm:p-0 px-4">
+          <button>SV|EN</button>
+        </div>
+      </section>
 
-      <button class="">
-        <img src="/assets/icons/search.svg" alt="search icon">
-      </button>
-  
-      <button
-            class="relative w-16 h-16 sm:hidden grid place-items-center gap-1 "
-            id="toggleMenuBtn"
-          >
-        <div class="w-full h-1 bg-black duration-300"></div>
-        <div class="w-full h-1 bg-black duration-100"></div>
-        <div class="w-full h-1 bg-black duration-300"></div>
-      </button>
-    </div>    
+      </section>
+      <div class="sm:hidden flex flex-row gap-12">
+
+        <button class=""
+          id="serachBtnMobile"
+        >
+          <img src="/assets/icons/search.svg" alt="search icon">
+        </button>
+    
+        <button
+              class="relative w-16 h-16 sm:hidden grid place-items-center gap-1 "
+              id="toggleMenuBtn"
+            >
+          <div class="w-full h-1 bg-black duration-300"></div>
+          <div class="w-full h-1 bg-black duration-100"></div>
+          <div class="w-full h-1 bg-black duration-300"></div>
+        </button>
+      </div>
+
+      <div class="absolute w-full h-full mx-28 pl-4 pr-44 py-3 bg-white hidden items-end justify-end gap-4"
+        id="searchOverlay"
+      >
+        <input type="search" placeholder="Sök" class="grow bg-glass h-10">
+        <button class="mb-2">cancel</button>
+      </div>    
     </nav>
 
     <!-- hero section -->
