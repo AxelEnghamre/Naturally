@@ -13,8 +13,9 @@
     <script src="/scripts/menu.js" defer></script>
     <script src="/scripts/footer.js" defer></script>
     <script src="/scripts/carousel.js" defer></script>
+    <script src="/scripts/popup.js" defer></script>
   </head>
-  <body class="bg-white">
+  <body class="bg-white z-0">
     <!-- navigation -->
     <nav
       class="fixed z-50 top-0 left-0 w-screen h-24 px-8 flex flex-row justify-between items-end transition-colors duration-500 overflow-y-visible"
@@ -378,5 +379,39 @@
       
       
     </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- pop up -->
+    <div class="fixed sm:hidden inset-0 z-30 w-screen h-screen bg-spaceGey/70 hidden place-items-center"
+      id="popup"  
+    >
+      <div class="w-56 h-96 bg-white opacity-100 flex flex-col p-4 items-start gap-4">
+        <img class="hover:cursor-pointer h-7 w-auto"src="/assets/icons/cross.svg" alt="cross">
+        <section class="grow">
+          <h2 class="text-3xl">Håll dig uppdaterad!</h2>
+          <p>Gå med i vårt nyhetsbrev för att få exklusiv informatiom om våra nya produkter och framtidsplaner.</p>
+        </section>
+        <a class="w-full h-10 bg-sunset text-white grid place-items-center" href="">
+          REGISTRERA DIG
+        </a>
+      </div>
+    </div>
+
+
+
+
   </body>
 </html>
