@@ -111,7 +111,7 @@
     >
       <img src="/assets/logo/logo_big.svg" alt="" class="self-start" />
       <button
-        class="bg-sunset w-44 h-11 text-lg sm:w-64 sm:h-16 sm:text-4xl grid place-items-center text-white"
+        class="bg-sunset hover:bg-sunsetHover w-44 h-11 text-lg sm:w-64 sm:h-16 sm:text-4xl grid place-items-center text-white"
       >
         SHOPPA
       </button>
@@ -187,12 +187,11 @@
             </div>
 
             <div class="hidden sm:flex gap-5">
-            <button id="button-left" class="rounded-full w-24 h-24 grid place-items-center bg-glass"><svg width="23" height="43" viewBox="0 0 23 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button id="button-left" class="rounded-full w-24 h-24 grid place-items-center bg-glass hover:bg-rat"><svg width="23" height="43" viewBox="0 0 23 43" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M21.875 1L1.875 21.5L21.875 42" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
               </button>
-              <button id="button-right" class="rounded-full w-24 h-24 grid place-items-center bg-glass"><svg width="23" height="43" viewBox="0 0 23 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.875 1L21.875 21.5L1.875 42" fill="#F5F5F5"/>
+              <button id="button-right" class="rounded-full w-24 h-24 grid place-items-center bg-glass hover:bg-rat"><svg width="23" height="43" viewBox="0 0 23 43" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1.875 1L21.875 21.5L1.875 42" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 </button>
@@ -239,7 +238,7 @@
               <img class="border border-black" src="/assets/images/material_normal.png" alt="material">
             </div>
           </div>
-          <button class="bg-sunset self-center sm:self-start w-36 h-11 text-lg sm:w-52 sm:h-12 sm:text-2xl grid place-items-center text-white">
+          <button class="bg-sunset hover:bg-sunsetHover self-center sm:self-start w-36 h-11 text-lg sm:w-52 sm:h-12 sm:text-2xl grid place-items-center text-white">
             Läs mer
           </button>
         </div>   
@@ -252,7 +251,7 @@
 
       <!-- newsletter -->
     <section class="flex justify-center mb-16">
-        <div class="w-full bg-glass">
+        <div class="w-full bg-glass border-2 border-spaceGey">
           <div class="p-12">
 
             <h2 class="text-3xl sm:text-6xl font-bold mb-4">Ifall du glömde.</h2>
@@ -260,7 +259,7 @@
               Gå med i vårt nyhetsbrev för att få exklusiv information om våra nya
               produkter och framtidsplaner.
             </p>
-            <div class="w-full flex flex-col sm:flex-row items-center sm:justify-center gap-3 sm:gap-0">
+            <div class="w-full sm:w-3/5 flex flex-col sm:flex-row items-center gap-3 sm:gap-0">
               <input
               type="email"
               name="email"
@@ -269,7 +268,7 @@
               class="w-11/12 sm:w-6/12 h-10 px-4 bg-white border-2 border-sunset"
               />
               <button
-              class="bg-spaceGey w-2/6 h-10 place-items-center text-white"
+              class="bg-spaceGey hover:bg-gravel w-2/6 h-10 place-items-center text-white"
               >
               Gå med
             </button>
