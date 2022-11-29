@@ -51,6 +51,24 @@ toggleMenuBtn.addEventListener('click', () => {
 });
 
 
+
+
+const menuLinks = menu.querySelectorAll('div'); // this needs to be more specific
+menuLinks.forEach((link)=>{
+    link.addEventListener('click',()=>{
+        link.classList.toggle('active');
+    });
+});
+
+
+
+
+
+
+
+
+
+
 const searchOverlay = document.querySelector('#searchOverlay');
 const searchOverlayCancel = searchOverlay.querySelector('button');
 
