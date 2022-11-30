@@ -532,6 +532,11 @@ video {
   left: 0px;
 }
 
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -599,8 +604,41 @@ video {
   margin-right: auto;
 }
 
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.mx-40 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-7 {
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .mb-32 {
@@ -613,10 +651,6 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 
 .mr-6 {
@@ -643,12 +677,12 @@ video {
   margin-top: 3rem;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
-.ml-6 {
-  margin-left: 1.5rem;
+.mr-8 {
+  margin-right: 2rem;
 }
 
 .flex {
@@ -724,6 +758,10 @@ video {
   height: 1.75rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .min-h-fit {
   min-height: -moz-fit-content;
   min-height: fit-content;
@@ -762,6 +800,14 @@ video {
   width: 4rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .w-44 {
   width: 11rem;
 }
@@ -790,22 +836,6 @@ video {
   width: 14rem;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
-}
-
 .min-w-fit {
   min-width: -moz-fit-content;
   min-width: fit-content;
@@ -817,6 +847,10 @@ video {
 
 .max-w-4xl {
   max-width: 56rem;
+}
+
+.max-w-xs {
+  max-width: 20rem;
 }
 
 .grow {
@@ -913,8 +947,8 @@ video {
   gap: 1rem;
 }
 
-.gap-24 {
-  gap: 6rem;
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-5 {
@@ -931,10 +965,6 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .gap-y-4 {
@@ -1075,24 +1105,14 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-40 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
 }
 
 .pt-28 {
@@ -1119,6 +1139,35 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pr-12 {
+  padding-right: 3rem;
+}
+
+.pr-14 {
+  padding-right: 3.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1127,11 +1176,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -1192,14 +1236,14 @@ html {
   background-color: rgb(221 74 9 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-gravel:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(152 152 152 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-rat:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(219 218 218 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gravel:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(152 152 152 / var(--tw-bg-opacity));
 }
 
 .hover\:underline:hover {
@@ -1245,6 +1289,11 @@ html {
   .sm\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .sm\:mx-40 {
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 
   .sm\:mt-0 {
@@ -1293,8 +1342,12 @@ html {
     width: fit-content;
   }
 
-  .sm\:w-64 {
-    width: 16rem;
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
+  .sm\:w-full {
+    width: 100%;
   }
 
   .sm\:w-96 {
@@ -1305,6 +1358,10 @@ html {
     width: 13rem;
   }
 
+  .sm\:w-3\/5 {
+    width: 60%;
+  }
+
   .sm\:w-6\/12 {
     width: 50%;
   }
@@ -1313,20 +1370,8 @@ html {
     width: 15rem;
   }
 
-  .sm\:w-1\/2 {
-    width: 50%;
-  }
-
-  .sm\:w-3\/5 {
-    width: 60%;
-  }
-
-  .sm\:w-5\/6 {
-    width: 83.333333%;
-  }
-
-  .sm\:w-full {
-    width: 100%;
+  .sm\:max-w-xs {
+    max-width: 20rem;
   }
 
   .sm\:cursor-default {
@@ -1347,10 +1392,6 @@ html {
 
   .sm\:items-center {
     align-items: center;
-  }
-
-  .sm\:justify-center {
-    justify-content: center;
   }
 
   .sm\:gap-2 {
@@ -1403,23 +1444,30 @@ html {
     padding-top: 0px;
   }
 
+  .sm\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .sm\:pr-44 {
+    padding-right: 11rem;
+  }
+
+  .sm\:pr-48 {
+    padding-right: 12rem;
+  }
+
   .sm\:text-center {
     text-align: center;
-  }
-
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .sm\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .sm\:text-3xl {
