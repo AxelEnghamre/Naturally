@@ -12,6 +12,9 @@ module.exports = {
         rat: "#DBDADA",
         gravel: "#989898",
       },
+      backgroundImage: {
+        "hero-img": "url('/assets/images/hero_test.png')",
+      },
     },
   },
   plugins: [],

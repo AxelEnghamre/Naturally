@@ -599,6 +599,31 @@ video {
   margin-right: auto;
 }
 
+.my-40 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -627,12 +652,16 @@ video {
   margin-right: 1.5rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
 
-.mb-24 {
-  margin-bottom: 6rem;
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .mb-12 {
@@ -645,10 +674,6 @@ video {
 
 .mt-12 {
   margin-top: 3rem;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
 }
 
 .block {
@@ -786,37 +811,17 @@ video {
   width: 9rem;
 }
 
-.w-11\/12 {
-  width: 91.666667%;
-}
-
-.w-2\/6 {
-  width: 33.333333%;
+.w-1\/5 {
+  width: 20%;
 }
 
 .w-56 {
   width: 14rem;
 }
 
-.w-1\/5 {
-  width: 20%;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-2\/4 {
-  width: 50%;
-}
-
 .min-w-fit {
   min-width: -moz-fit-content;
   min-width: fit-content;
-}
-
-.max-w-7xl {
-  max-width: 80rem;
 }
 
 .max-w-4xl {
@@ -827,8 +832,8 @@ video {
   max-width: 20rem;
 }
 
-.max-w-none {
-  max-width: none;
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .grow {
@@ -869,10 +874,6 @@ video {
   flex-direction: column;
 }
 
-.place-content-center {
-  place-content: center;
-}
-
 .place-items-center {
   place-items: center;
 }
@@ -903,10 +904,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-items-center {
-  justify-items: center;
 }
 
 .gap-8 {
@@ -993,11 +990,6 @@ video {
   border-width: 2px;
 }
 
-.border-spaceGey {
-  --tw-border-opacity: 1;
-  border-color: rgb(52 52 52 / var(--tw-border-opacity));
-}
-
 .border-sunset {
   --tw-border-opacity: 1;
   border-color: rgb(255 78 0 / var(--tw-border-opacity));
@@ -1032,6 +1024,10 @@ video {
   background-color: rgb(52 52 52 / 0.7);
 }
 
+.bg-hero-img {
+  background-image: url('/assets/images/hero_test.png');
+}
+
 .object-none {
   -o-object-fit: none;
      object-fit: none;
@@ -1046,20 +1042,12 @@ video {
   padding: 0.5rem;
 }
 
-.p-12 {
-  padding: 3rem;
-}
-
 .p-6 {
   padding: 1.5rem;
 }
 
 .p-4 {
   padding: 1rem;
-}
-
-.p-14 {
-  padding: 3.5rem;
 }
 
 .px-8 {
@@ -1077,14 +1065,14 @@ video {
   padding-right: 1rem;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .px-16 {
@@ -1095,11 +1083,6 @@ video {
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 .pb-2 {
@@ -1137,11 +1120,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1149,6 +1127,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-sunset {
+  --tw-text-opacity: 1;
+  color: rgb(255 78 0 / var(--tw-text-opacity));
 }
 
 .text-gravel {
@@ -1159,11 +1142,6 @@ video {
 .text-glass {
   --tw-text-opacity: 1;
   color: rgb(245 245 245 / var(--tw-text-opacity));
-}
-
-.text-sunset {
-  --tw-text-opacity: 1;
-  color: rgb(255 78 0 / var(--tw-text-opacity));
 }
 
 .opacity-100 {
@@ -1311,10 +1289,6 @@ html {
     width: fit-content;
   }
 
-  .sm\:w-1\/2 {
-    width: 50%;
-  }
-
   .sm\:w-full {
     width: 100%;
   }
@@ -1327,6 +1301,10 @@ html {
     width: 13rem;
   }
 
+  .sm\:w-2\/4 {
+    width: 50%;
+  }
+
   .sm\:w-3\/5 {
     width: 60%;
   }
@@ -1337,10 +1315,6 @@ html {
 
   .sm\:w-60 {
     width: 15rem;
-  }
-
-  .sm\:w-2\/4 {
-    width: 50%;
   }
 
   .sm\:max-w-sm {
@@ -1357,6 +1331,10 @@ html {
 
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
   }
 
   .sm\:place-items-start {
@@ -1432,10 +1410,6 @@ html {
 
   .sm\:pr-48 {
     padding-right: 12rem;
-  }
-
-  .sm\:text-center {
-    text-align: center;
   }
 
   .sm\:text-2xl {
