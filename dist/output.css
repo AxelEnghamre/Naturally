@@ -1113,6 +1113,11 @@ video {
   color: rgb(245 245 245 / var(--tw-text-opacity));
 }
 
+.text-sunset {
+  --tw-text-opacity: 1;
+  color: rgb(255 78 0 / var(--tw-text-opacity));
+}
+
 .opacity-100 {
   opacity: 1;
 }
