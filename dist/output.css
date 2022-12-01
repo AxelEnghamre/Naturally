@@ -821,6 +821,10 @@ video {
   max-width: 80rem;
 }
 
+.max-w-screen-2xl {
+  max-width: 1536px;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -857,6 +861,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.place-content-center {
+  place-content: center;
 }
 
 .place-items-center {
@@ -1071,6 +1079,11 @@ video {
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pb-2 {
