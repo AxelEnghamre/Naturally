@@ -1021,6 +1021,14 @@ video {
   background-image: url('/assets/images/hero_test.png');
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .object-none {
   -o-object-fit: none;
      object-fit: none;
