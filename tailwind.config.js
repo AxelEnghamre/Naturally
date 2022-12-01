@@ -13,7 +13,7 @@ module.exports = {
         gravel: "#989898",
       },
       backgroundImage: {
-        "hero-img": "url('/assets/images/hero_test.png')",
+        "hero-img": "url('/assets/images/hero_img.png')",
       },
     },
   },
