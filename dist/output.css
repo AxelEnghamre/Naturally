@@ -821,10 +821,6 @@ video {
   max-width: 80rem;
 }
 
-.max-w-screen-2xl {
-  max-width: 1536px;
-}
-
 .grow {
   flex-grow: 1;
 }
@@ -841,6 +837,22 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.snap-x {
+  scroll-snap-type: x var(--tw-scroll-snap-strictness);
+}
+
+.snap-mandatory {
+  --tw-scroll-snap-strictness: mandatory;
+}
+
+.snap-start {
+  scroll-snap-align: start;
+}
+
+.snap-center {
+  scroll-snap-align: center;
 }
 
 .grid-cols-2 {
@@ -861,10 +873,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.place-content-center {
-  place-content: center;
 }
 
 .place-items-center {
