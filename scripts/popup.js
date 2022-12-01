@@ -11,7 +11,7 @@ window.addEventListener('scroll',()=>{
     const productsFromTop = parseInt(products.offsetTop - products.scrollTop + products.clientTop);
 
 
-    if(buttomOfScreen == productsFromTop && !popupHasBeenShown) {
+    if(buttomOfScreen >= productsFromTop - 20 && buttomOfScreen <= productsFromTop + 20 && !popupHasBeenShown) {
         popupHasBeenShown = true
         popup.classList.add('grid');
         popup.classList.remove('hidden');
