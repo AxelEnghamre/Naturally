@@ -1034,6 +1034,11 @@ video {
   background-position: center;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .object-none {
   -o-object-fit: none;
      object-fit: none;
