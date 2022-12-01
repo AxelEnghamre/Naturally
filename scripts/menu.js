@@ -1,17 +1,17 @@
 // nav bar
-const navBar = document.querySelector('#navBar');
+// const navBar = document.querySelector('#navBar');
 
-document.addEventListener('scroll', () => {
-    if(window.scrollY > 0) {
-        if(!navBar.classList.contains('bg-white')) {
-            navBar.classList.add('bg-white');
-        }
-    } else {
-        if(navBar.classList.contains('bg-white')) {
-            navBar.classList.remove('bg-white');
-        }
-    }
-});
+// document.addEventListener('scroll', () => {
+//     if(window.scrollY > 0) {
+//         if(!navBar.classList.contains('bg-white')) {
+//             navBar.classList.add('bg-white');
+//         }
+//     } else {
+//         if(navBar.classList.contains('bg-white')) {
+//             navBar.classList.remove('bg-white');
+//         }
+//     }
+// });
 
 
 // toggle menu
