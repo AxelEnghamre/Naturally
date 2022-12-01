@@ -73,6 +73,7 @@ const searchOverlayCancel = searchOverlay.querySelector('button');
 searchOverlayCancel.addEventListener('click', () => {
     searchOverlay.classList.toggle('flex');
     searchOverlay.classList.toggle('hidden');
+    menu.classList.toggle('opacity-0');
 });
 
 
@@ -83,8 +84,10 @@ const serachBtnMobile = document.querySelector('#serachBtnMobile');
 serachBtn.addEventListener('click', () => {
     searchOverlay.classList.toggle('flex');
     searchOverlay.classList.toggle('hidden');
+    menu.classList.toggle('opacity-0');
 });
 serachBtnMobile.addEventListener('click', () => {
     searchOverlay.classList.toggle('flex');
     searchOverlay.classList.toggle('hidden');
+    menu.classList.toggle('opacity-100');
 });
