@@ -666,6 +666,10 @@ video {
   margin-top: 3rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -1285,6 +1289,10 @@ html {
 
   .sm\:mt-0 {
     margin-top: 0px;
+  }
+
+  .sm\:mb-32 {
+    margin-bottom: 8rem;
   }
 
   .sm\:block {
