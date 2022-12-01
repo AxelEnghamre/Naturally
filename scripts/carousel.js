@@ -67,5 +67,5 @@ balaclava.addEventListener("mouseover", () =>
   productHover("balaclava", "assets/images/balaclavagif.webp")
 );
 balaclava.addEventListener("mouseout", () =>
-  productStatic("balaclava", "assets/images/balaclava.png")
+  productStatic("balaclava", "assets/images/Balaclava.png")
 );
