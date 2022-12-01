@@ -27,7 +27,7 @@ toggleMenuBtn.addEventListener('click', () => {
         setTimeout(()=>{
             menu.classList.toggle('right-0');
             menu.classList.toggle('left-0');
-        },1000);
+        },550);
     }
 
     menu.classList.toggle('w-0');
@@ -73,7 +73,12 @@ const searchOverlayCancel = searchOverlay.querySelector('button');
 searchOverlayCancel.addEventListener('click', () => {
     searchOverlay.classList.toggle('flex');
     searchOverlay.classList.toggle('hidden');
-    menu.classList.toggle('opacity-0');
+    
+    if(searchOverlay.classList.contains('flex')) {
+        menu.classList.add('opacity-0');
+    } else {
+        menu.classList.remove('opacity-0');
+    }
 });
 
 
